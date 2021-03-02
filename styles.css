@@ -1,0 +1,25 @@
+body {
+    background-color: gray;
+    color:palegreen;
+    font-size: 35px;
+
+}
+h1 {
+    color:palegreen;
+    font-size: 45px;
+}
+input[type=text] {
+    background-color:hotpink;
+    border:10px navy;
+    border-radius: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:navy;
+    text-align:center;
+}
+input[type=button] {
+    background-color:navy;
+    color:hotpink;
+    font-size:30px;
+    font-family:inherit;
+}
