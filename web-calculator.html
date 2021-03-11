@@ -4,14 +4,23 @@
         <link rel= "stylesheet" href='./styles.css' />
     </head>
   <body>
-    <h1>Single Function Calculator</h1>
-    <input type="text" id="fnumber" name="box1"/>
-    +
-    <input type="text" id="snumber" name="box2"/>
-    =
+    <h1>Calculator</h1>
+    Inputs:
+    <input type="text" id="first-number" name="box1"/>
+    <input type="text" id="second-number" name="box2"/>
     <br>
     <br>
-    <input type="button" value="Add!" onclick="calculate()"/>
-    <input type="text" id="addresult" name="box3"/>
+    <div>
+      <input type="button" value="Add!" onclick="calculate('Add!')"/>
+      <input type="button" value="Subtract!" onclick="calculate('Subtract!')"/>
+      <input type="button" value="Multiply!" onclick="calculate('Multiply!')"/>
+      <input type="button" value="Divide!" onclick="calculate('Divide!')"/>
+    </div>
+    <br>
+    Result: 
+    <input type="text" id="result" name="box3"/>
+    <br>
+    <br>
+    <div><input type="button" value="Clear" onclick="calculate('Reset')"></div>
   </body>
 </html>

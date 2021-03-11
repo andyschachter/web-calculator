@@ -2,11 +2,13 @@ body {
     background-color: gray;
     color:palegreen;
     font-size: 35px;
+    text-align: center;
 
 }
 h1 {
     color:palegreen;
     font-size: 45px;
+    text-align:center;
 }
 input[type=text] {
     background-color:hotpink;
